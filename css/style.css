@@ -98,3 +98,24 @@ html, body{
 #nav-header #welcome {
 	margin-right: 20px;
 }
+
+#nav-header ul .label {
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+
+#nav-header .fixed-width {
+	width: 35px;
+}
+
+/*=== FOOTER ===*/
+
+#admin-footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	background-color: #FFF;
+	padding: 10px;
+}
+
