@@ -1,8 +1,17 @@
+/* === GLOBAL === */
+
 html, body{
     font-family: "open sans", "Helvetica Neue", Hevetica, Arial, sans-serif;
     background-color: #f3f3f4;
     color: #676a6c;
+    height: 100%
 }
+
+.valign-top{
+    vertical-align: top;
+}
+
+/* === SIDEBAR MENU === */
 
 .box {
     border: 1px red dotted;
@@ -14,8 +23,27 @@ html, body{
 }
 
 #side-menu h1 {
-    color: #1f3647;
+	color: darkgrey;
     text-align: center;
     margin: 10px;
     font-size: 25px;
 }
+
+.display-table{
+    display: table;
+    padding: 0px;
+    height: 100%;
+	width: 100%;
+}
+
+.display-table-row{
+    display: table-row;
+    height: 100%;
+}
+
+.display-table-cell{
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+
