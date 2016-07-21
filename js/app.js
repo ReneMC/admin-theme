@@ -1,11 +1,11 @@
-// Navbar button action
+// NAVBAR BUTTON ACTION
 $(document).ready(function () {
 	$('[data-toggle="offcanvas"]').click(function () {
 		$('#side-menu').toggleClass('hidden-xs');
 	});
 });
 
-// Chosen Select configuration
+// CHOSEN SELECT CONFIGURATION
 var config = {
 	'.chosen-select' : {},
 	'.chosen-select-deselect' : {allow_single_deselect: true},
@@ -16,3 +16,8 @@ var config = {
 for (var selector in config) {
 	$(selector).chosen(config[selector]);
 }
+
+// SUMMERNOTE CONFIG
+$('.summernote').summernote({
+	height: 200
+})
