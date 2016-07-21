@@ -19,5 +19,5 @@ for (var selector in config) {
 
 // SUMMERNOTE CONFIG
 $('.summernote').summernote({
-	height: 200
+	height: 200 //set editable area's height
 })
